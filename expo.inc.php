@@ -1,0 +1,8 @@
+<h5>Exposition <span class="blanc">Thierry Martinez</span><br /><span style="font-size:14px; margin-top:10px; color:white;">Gratuit / </span><span style="font-size:14px; margin-top:5px;">(Photographe de mer)</span></h5>
+<div id="bg-bar">
+<a href="images/thierry-martinez-gd.jpg" rel="shadowbox"><img src="images/thierry-martinez.jpg" alt="Cocktails Absinthe café Saint Malo" class="someClass" title="Cocktails" width="380" height="150" /></a>
+</div>
+<div id="texte-expo">
+<p class="txt-triangle">Photographe professionnel dans le milieu nautique depuis 1987, Thierry Martinez a acquis au fil des ann&eacute;es et des divers grands projets auxquel il a collabor&eacute; une exp&eacute;rience et un savoir faire bas&eacute; sur ses deux passions : la Voile et la Photo.<br />Thierry a &eacute;galement contribu&eacute; &agrave; l'image d'un grand nombre de marins Fran&ccedil;ais ou &eacute;trangers comme Laurent Bourgnon, Michel Desjoyeaux ou Ellen MacArthur.<br />Son respect des sportifs et le s&eacute;rieux qu'il apporte dans la r&eacute;alisation de ses images lui valent une grande estime aupr&egrave;s de l'ensemble des acteurs de la voile internationale.</p>
+<p><a class="menu-carte" href="http://www.thmartinez.com/en/accueil.php" target="_blank"><img src="images/carte-oeil.png" width="25" height="25" alt="Carte-visuel" title="Voir le site" align="top" />&nbsp;&nbsp;www.thmartinez.com</a></p>
+</div>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SLIDESHOW SPEED="12">
+<accueil URL="./images/slideShow/accueil-1.jpg" />
+<accueil URL="./images/slideShow/accueil-4.jpg" />
+<accueil URL="./images/slideShow/accueil-3.jpg" />
+<accueil URL="./images/slideShow/accueil-7.jpg" />
+<accueil URL="./images/slideShow/accueil-2.jpg" />
+<accueil URL="./images/slideShow/accueil-5.jpg" />
+
+<mezzanine URL="./images/slideShow/mezzanine-1.jpg" />
+<mezzanine URL="./images/slideShow/mezzanine-2.jpg" />
+<mezzanine URL="./images/slideShow/mezzanine-3.jpg" />
+
+<restaurant URL="./images/slideShow/restaurant-1.jpg" />
+<restaurant URL="./images/slideShow/restaurant-2.jpg" />
+<restaurant URL="./images/slideShow/restaurant-3.jpg" />
+<restaurant URL="./images/slideShow/restaurant-4.jpg" />
+<restaurant URL="./images/slideShow/restaurant-5.jpg" />
+
+<bar URL="./images/slideShow/bar-1.jpg" />
+<bar URL="./images/slideShow/bar-2.jpg" />
+<bar URL="./images/slideShow/bar-3.jpg" />
+<bar URL="./images/slideShow/bar-4.jpg" />
+<bar URL="./images/slideShow/bar-5.jpg" />
+
+<halles URL="./images/slideShow/halles-1.jpg" />
+<halles URL="./images/slideShow/halles-2.jpg" />
+<halles URL="./images/slideShow/halles-3.jpg" />
+</SLIDESHOW>

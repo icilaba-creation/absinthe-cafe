@@ -1,0 +1,1346 @@
+@charset "ISO-8859-1";
+@import url(http://fonts.googleapis.com/css?family=Felipa);
+/* CSS Document */
+
+/* Mise a zero des margin et padding */
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td { margin: 0; padding: 0; border:0 } 
+
+
+
+body {
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#FFF;
+}
+
+img{
+			border:none;
+			margin:0px;
+			padding:0px;
+		}
+
+
+h1 {
+	font-size:30px;
+	/*margin-top:22px;*/
+	margin-bottom:10px;
+	font-weight:normal;
+}
+h2 {
+	font-size:20px;
+	margin:0px 0px 5px 0px;
+	font-weight:bold;
+	color:#58425b;
+}
+		
+h3 {
+	font-size:18px;
+	margin-top:5px;
+	margin-bottom:8px;
+	color:#303030;
+}
+h4 {
+	line-height:50px;
+}
+h5 {
+	font-size:26px;
+	margin-bottom:10px;
+	font-weight:bold;
+	color:#b10668;
+}
+		
+.titre-rose {
+	color:#b10668;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+}
+p {
+	font-size:14px;
+	margin:0px 0px 10px 0px;
+		}
+strong {
+	color:#b10668;
+}
+
+a {
+	color:white;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+		
+.blanc {
+	color:#FFF;
+}
+.txt-triangle {
+	font-size:14px;
+	margin:0px 0px 10px 0px;
+	line-height:1.4;
+	
+}
+
+.txt-adresse {
+	font-size:14px;
+	margin:0px 0px 20px 0px;
+	line-height:20px;
+	color:#58425b;
+	font-weight:bold;
+}
+
+
+
+
+
+.text-prix {
+	text-align:right;
+	color:#b10668;
+}
+
+
+li.lien-menu a {
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	text-indent:15px;
+	
+}
+
+li.titre-menu {
+margin:17px 0px 2px 0px;
+color:#b10668;
+font-size:16px;
+font-weight:bold;
+padding-left:90px;
+/*text-indent:90px;*/
+}
+
+li.titre-menu-first {
+margin:0px 0px 2px 0px;
+color:#b10668;
+font-size:16px;
+font-weight:bold;
+padding-left:90px;
+/*text-indent:90px;
+
+*/}
+
+li.lien-menu {
+height:22px;
+font-size:13px;
+font-weight:bold;
+line-height:22px;
+/*text-indent:105px;
+*/
+}
+
+
+
+li#mezzanine-lien a {
+	margin-left:10px;
+	padding-left:80px;
+	
+	
+}
+li#mezzanine-lien a:active {
+	color:#b10668;
+}
+
+a:hover, a:visited, a:active, a:focus {
+	outline:none;
+	
+	
+}
+
+li#mezzanine-lien a:hover {
+	background:transparent url(img/cadre-lien-bg.png) top right no-repeat scroll;
+}
+
+li#restaurant-lien a {
+/*	width:250px;*/
+	margin-left:12px;
+	padding-left:78px;
+}
+
+li#restaurant-lien a:hover {
+	background:transparent url(img/cadre-lien-bg.png) right -22px no-repeat scroll;
+}
+
+li#bar-lien a {
+/*	width:250px;*/
+	margin-left:14px;
+	padding-left:76px;
+}
+li#bar-lien a:hover {
+	background:transparent url(img/cadre-lien-bg.png) right -44px no-repeat scroll;
+}
+
+li#halles-lien a {
+/*	width:250px;*/
+	margin-left:18px;
+	padding-left:72px;
+}
+li#halles-lien a:hover {
+	background:transparent url(img/cadre-lien-bg.png) right -66px no-repeat scroll;
+}
+
+li#carte-lien a {
+/*	width:250px;*/
+	margin-left:25px;
+	padding-left:65px;
+	
+}
+li#carte-lien a:hover {
+	background:transparent url(img/resto-lien-bg.png) right top no-repeat scroll;
+}
+li#equipes-lien a {
+/*	width:250px;*/
+	margin-left:27px;
+	padding-left:63px;
+	
+}
+li#equipes-lien a:hover {
+	background:transparent url(img/resto-lien-bg.png) right -22px no-repeat scroll;
+}
+li#cocktails-lien a {
+/*	width:250px;*/
+	margin-left:35px;
+	padding-left:55px;
+	
+}
+li#cocktails-lien a:hover {
+	background:transparent url(img/bar-lien-bg.png) right top no-repeat scroll;
+}
+li#vin-lien a {
+/*	width:250px;*/
+	margin-left:37px;
+	padding-left:53px;
+	
+}
+li#vin-lien a:hover {
+	background:transparent url(img/bar-lien-bg.png) right -22px no-repeat scroll;
+}
+li#photos-lien a {
+/*	width:250px;*/
+	margin-left:44px;
+	padding-left:46px;
+	
+}
+li#photos-lien a:hover {
+	background:transparent url(img/bonus-lien-bg.png) right top no-repeat scroll;
+}
+li#aime-lien a {
+/*	width:250px;*/
+	margin-left:46px;
+	padding-left:44px;
+	
+}
+li#aime-lien a:hover {
+	background:transparent url(img/bonus-lien-bg.png) right -22px no-repeat scroll;
+}
+li#groupes-lien a {
+/*	width:250px;*/
+	margin-left:52px;
+	padding-left:37px;
+	
+}
+li#groupes-lien a:hover {
+	background:transparent url(img/info-lien-bg.png) right top no-repeat scroll;
+}
+li#plan-lien a {
+/*	width:250px;*/
+	margin-left:55px;
+	padding-left:35px;
+	
+}
+li#plan-lien a:hover {
+	background:transparent url(img/info-lien-bg.png) right -22px no-repeat scroll;
+}
+li#contact-lien a {
+/*	width:250px;*/
+	margin-left:57px;
+	padding-left:33px;
+	
+}
+li#contact-lien a:hover {
+	background:transparent url(img/info-lien-bg.png) right -44px no-repeat scroll;
+}
+
+li.lien-menu a:hover {
+	color:#58425b;
+	text-decoration:none;
+/*	background-color:#FFF;
+*/	
+}
+
+ul {
+	list-style:none;
+	
+}
+
+label {
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+	line-height:23px;
+}
+
+#name-wrap input,#prenom-wrap input,#email-wrap input,#tel-wrap input,#comment-wrap textarea {
+	border:1px solid #3c273c;
+	color:white;
+	font:0.8em Verdana;
+	padding:1px 2px;
+	width:90%;
+	margin-bottom:15px;
+	background-color:#3c273c;
+}
+
+#name-wrap input,#prenom-wrap input,#email-wrap input,#tel-wrap input {
+	height:25px;
+}
+
+#comment-wrap textarea {
+	height:140px;
+}
+
+#submit-wrap input {
+	display:block;
+	float:right;
+	margin-right:40px;
+	background-color:#3c273c;
+	height:25px;
+	border:1px solid #3c273c;
+	color:white;
+	padding:1px 15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:bold;
+	line-height:23px;
+	cursor:pointer;
+}
+
+#submit-wrap input:hover {
+	background-color:#b10668;
+	cursor:pointer;
+}
+
+#spam-wrap, #ajax-loader, #resultatAjax  {
+	display:none;
+}
+
+#resultatAjax, #ajax-loader {
+	text-align:center;
+	width:430px;
+	height:320px;
+	line-height:320px;
+	
+}
+
+#ajax-loader {
+	margin-top:184px;
+}
+
+.erreur {
+	text-align:center;
+}
+
+
+.LV_valid {
+	background: url(img/accept.png) no-repeat center left;
+}
+	
+.LV_invalid {
+	background: url(img/exclamation.png) no-repeat center left;
+}
+
+
+	
+.LV_validation_message{
+	float:left;
+	margin-left:5px;
+	line-height:25px;
+	height: 25px;
+	width: 25px;
+	position:absolute;
+}
+    
+.LV_valid_field,
+input.LV_valid_field:hover, 
+input.LV_valid_field:active,
+textarea.LV_valid_field:hover, 
+textarea.LV_valid_field:active,
+.fieldWithErrors input.LV_valid_field,
+.fieldWithErrors textarea.LV_valid_field {
+    border: 1px solid #00CC00;
+}
+    
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active,
+.fieldWithErrors input.LV_invalid_field,
+.fieldWithErrors textarea.LV_invalid_field {
+    border: 1px solid #CC0000;
+}
+
+/* ---------------------------------------- */
+
+.no-bold {
+	font-style:normal;
+	font-weight:normal;
+}
+
+
+
+#intro {
+	position:absolute;
+	background-color:#2e1b30;
+	width:100%;
+	height:100%;
+	z-index:10;
+	text-align:center;
+/*	zoom:1;*/
+}
+#logo-intro h1 {
+	margin:0px;
+}
+#logo-intro h2 {
+	text-align:center;
+	color:#433245;
+	font-size:30px;
+	margin:0px;
+	font-weight:bold;
+}
+
+#logo-intro {
+	position:absolute; 
+	top: 50%;
+	left:0px;
+	width: 100%; 
+	height: 520px; 
+	margin-top: -260px; /* moitié de la hauteur */
+
+}
+
+#trait-intro {
+	height:25px;
+	width:100%;
+	margin-top:60px;
+}
+
+#trait-gauche {
+	float:left;
+	width:0%;
+	height:100%;
+	background-color:#b10668;
+}
+#entrer {
+	float:left;
+	width:85px;
+	height:100%;
+	margin:0px 2px;
+/*	background-color:#b10668;*/
+	line-height:25px;
+	display:none;
+	background:transparent url(img/entrer-bg.png) top left no-repeat scroll;
+}
+#triangle-entrer {
+	float:left;
+	width:11px;
+	height:100%;
+	background:transparent url(img/triangle-entrer.png) top left no-repeat scroll;
+}
+
+#wrapper {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;left:0;
+	/*background:#000 url(img/fond-bg.jpg) top left repeat scroll;*/
+	background-color:#3c273c;
+	overflow:hidden;
+}
+
+
+	#mask {
+		width:100%;
+		height:500%;
+		overflow:hidden;
+	}
+
+	.item {
+		width:100%;
+		height:20%;
+		display:block;
+	}	
+	
+	
+	.content {
+		width:100%;
+		height:100%;
+		background:transparent url(img/restaurant-st-malo-fourchette.png) top left repeat scroll ;
+		position:relative;
+	}
+	
+	.selected {
+		color:#b10668;
+	}
+	
+	/*#menu {
+		position:absolute;
+		width:340px;
+		height:100%;
+		right:0px;
+		top:0;
+		background:url(img/essai-triangle.png) top left transparent;
+}*/
+#triangle-conteneur {
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:1;
+/*	zoom:1;*/
+}
+#triangle{
+	width:0px;
+	height:100%;
+	float:right;
+	background:url(img/restaurant-saint-malo-triangle.png) top left transparent;
+}
+#header {
+	display:none;
+}
+
+#ctrLogo {
+	height: 75px;
+			width: 240px;
+			margin-left:90px;
+			margin-top:15px;
+}
+
+
+
+		
+		
+#menu {
+	width:340px;
+}
+#footer {
+	position:absolute;
+	margin-left:130px;
+	width:200px;
+	height:80px;
+	bottom:10px;
+	display:none;
+}
+
+#adresse p {
+	font-size:11px;
+			font-weight:bold;
+			color:#58425b;
+		}
+#facebook a{
+	font-size:13px;
+	font-weight:bold;
+	color:#78437d;
+	text-decoration: none;
+	outline: none;
+	line-height:25px;
+	display:block;
+	height:33px;
+		}
+#facebook a:hover{
+			color:#fff;
+			text-decoration: none;
+			outline: none;
+		}		
+		
+
+
+
+
+#contact {
+	position:absolute;
+	z-index:300;
+	top:90px;
+	left:465px;
+	height:95%;
+	width:430px;
+}
+
+
+#cocktails, #vin, #groupes, #plan, #carte, #aime {
+	width:430px;
+	height:95%;
+	position:absolute;
+	z-index:300;
+	top:90px;
+	left:465px;
+}
+
+
+
+
+
+#equipes {
+	width:565px;
+	height:95%;
+	position:absolute;
+	z-index:300;
+	top:90px;
+	left:395px;
+}
+
+#equipes h5, #equipes p {
+	margin-left:70px;
+	margin-bottom:0px;
+}
+
+#bg-equipes {
+	width:565px;
+	height:330px;
+	margin-bottom:10px;
+}
+
+
+
+
+
+#plan-bg {
+	width:360px;
+	height:252px;
+	background-color:#3c273c;
+	padding:20px;
+}
+
+#plan-bg p{
+	margin-left:-20px;
+}
+
+#plan-bg img {
+	border:1px solid #fff;
+	margin-bottom:35px;
+	
+}
+
+#plan-bg:hover {
+	background-color:#fff;
+}
+
+#plan-bg a:hover {
+	color:#b10668;
+}
+
+
+
+#photos {
+	position:absolute;
+	z-index:300;
+	top:95px;
+	left:465px;
+	height:99%;
+}
+
+#bg-bar, #bg-carte, .bg-photo {
+	width:380px;
+	height:152px;
+	background-color:#3c273c;
+	padding:15px;
+	margin-bottom:20px;
+}
+
+
+
+.bg-photo {
+	margin-bottom:10px;
+	height:67px;
+}
+
+#bg-carte {
+	margin-bottom:15px;
+}
+
+.bg-photo:hover, #bg-bar:hover, #bg-carte:hover {
+	
+	background-color:white;
+}
+
+.bg-photo img, #bg-bar img, #bg-carte img {
+	border:1px solid white;
+}
+
+#texte-carte a {
+	color:#b10668;
+	height:25px;
+	line-height:20px;
+	display:inline;
+}
+
+#texte-carte a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+
+
+
+.bloc.selection {
+	
+}
+
+.page {
+	display:none;
+}
+
+.page-sponsors {
+	display:none;
+}
+
+#sponsors1 {
+	display:block;
+}
+
+#sponsors-list{
+	width:385px;
+	height:30px;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+#sponsors-list ul{
+	width:120px;
+	margin:0 auto;
+}
+
+#sponsors-conteneur {
+	width:400px;
+	height:390px;
+	margin-bottom:10px;
+}
+
+
+
+.lien-sponsors {
+	display:block;
+	float:left;
+	
+}
+
+.lien-sponsors a{
+
+	/* The links that initiate the page slide */
+
+	background-color:#fff;
+	float:left;
+	height:12px;
+	margin:4px 4px;
+	text-indent:-9999px;
+	width:12px;
+	/*border:1px solid #ccc;*/
+	
+	/* CSS3 rounded corners */
+	
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+}
+
+.lien-sponsors a:hover,
+.lien-sponsors a:active{
+	background-color:#b10668;
+	
+	/*	CSS3 inner shadow */
+	-moz-box-shadow:0 0 6px #b10668 inset;
+	/*-webkit-box-shadow:0 0 7px #1e435d inset;*/
+	box-shadow:0 0 6px #b10668 inset;
+}
+
+.lien-sponsors a.selection{
+background-color:#b10668;
+}
+
+
+.fade {
+			cursor:pointer;
+		}
+#ctrCopyright {
+	position:absolute;
+	z-index:9;
+	bottom:5px;
+	left:5px;
+	height:22px;
+	width:350px;
+	padding:5px 5px;
+}
+#copyright-gauche {
+	position:absolute;
+	background:transparent url(img/copyright.png) left center no-repeat scroll;
+	height:22px;
+	width:11px;
+	cursor:pointer;
+	float:left;
+}
+#copyright-center {
+	position:absolute;
+	background-color:#b10668;
+	height:20px;
+	width:0px;
+	cursor:pointer;
+	float:left;
+	margin:1px 0px 1px 11px;;
+}
+#copyright-droite {
+	position:absolute;
+	background:transparent url(img/copyright.png) right center no-repeat scroll;
+	height:22px;
+	width:11px;
+	cursor:pointer;
+	float:left;
+	margin-left:11px;
+}
+	
+#copyright {
+	height:22px;
+	width:322px;
+	position:absolute;
+	
+}
+
+
+
+#copyright li {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	display:block;
+	float:left;
+	line-height:22px;
+	margin:0px;
+	
+}
+
+#copyright li#copy {
+	font-size:14px;
+	width:22px;
+	text-align:center;
+	cursor:pointer;
+	
+}
+#copyright li#absinthe, #copyright li#mentions, #copyright li#credits  {
+	display:none;
+}
+		
+.draggable {
+	position:absolute;
+	bottom:8%;
+	left:3%;
+	text-align:center;
+	z-index:2;
+}
+
+.afficher, .fermer {
+	width:55px;
+	height:55px;
+	display:none;
+	cursor:pointer;
+}
+
+
+#conteneur-accueil {
+	width:545px;
+	height:548px;
+/*	display:none;*/
+}
+
+#bloc-accueil {
+	width:545px;
+	height:548px;
+	background: url(img/restaurant-saint-malo-descriptif.png) transparent center center no-repeat;
+	text-align:center; /* centrage horizontal */
+	line-height:548px;
+	display:none;
+}
+		
+#texte-accueil {
+	width:400px;
+	display:none;
+	vertical-align:middle; 
+	display:inline-block; 
+	line-height:1.3; /* on rétablit le line-height */ 
+	text-align:center; /* ... et l'alignement du texte */ 
+}
+
+#texte-accueil h1 {
+	font-size:35px;
+	margin-bottom:0px;
+}
+
+#position-afficher-acc {
+	position:absolute;
+	bottom:60px;
+	right:110px;
+	
+}
+		
+
+		
+/*.descriptif {
+			position:absolute;
+			bottom:11%;
+			left:3%;
+			text-align:center;
+			z-index:2;
+		}*/
+#conteneur-mezzanine {
+	width:410px;
+	height:410px;
+}
+
+#bloc-mezzanine {
+	width:410px;
+	height:410px;
+	background: url(img/restaurant-saint-malo-descriptif-mezzanine.png) transparent center center no-repeat;
+	text-align:center; /* centrage horizontal */
+	line-height:410px;
+	margin: 0px auto;
+		}
+#texte-mezzanine {
+	width:250px; 
+	vertical-align:middle; 
+	display:inline-block; 
+	line-height:1.4; /* on rétablit le line-height */ 
+	text-align:center; /* ... et l'alignement du texte */ 
+}
+
+#position-afficher-mezzanine {
+	position:absolute;
+	bottom:40px;
+	right:90px;
+	
+}
+
+
+#conteneur-restaurant {
+	width:410px;
+	height:410px;
+/*	display:none;*/
+}
+
+#bloc-restaurant {
+	width:410px;
+	height:410px;
+	background: url(img/restaurant-saint-malo-descriptif-mezzanine.png) transparent center center no-repeat;
+	text-align:center; /* centrage horizontal */
+	line-height:410px;
+}
+		
+#texte-restaurant {
+	width:250px;
+	display:none;
+	vertical-align:middle; 
+	display:inline-block; 
+	line-height:1.4; /* on rétablit le line-height */ 
+	text-align:center; /* ... et l'alignement du texte */ 
+}
+
+#position-afficher-restaurant {
+	position:absolute;
+	bottom:40px;
+	right:90px;
+	
+}
+
+#texte-restaurant h1 {
+	font-size:30px;
+	margin-bottom:0px;
+}
+
+#texte-restaurant h2 {
+	font-size:18px;
+}
+
+#conteneur-bar {
+	width:350px;
+	height:350px;
+}
+
+#bloc-bar {
+	width:350px;
+	height:350px;
+	background: url(img/restaurant-saint-malo-descriptif-bar.png) transparent center center no-repeat;
+	text-align:center; /* centrage horizontal */
+	line-height:350px;
+		}
+#texte-bar {
+	width:200px; 
+	vertical-align:middle; 
+	display:inline-block; 
+	line-height:1.4; /* on rétablit le line-height */ 
+	text-align:center; /* ... et l'alignement du texte */ 
+}
+
+#position-afficher-bar {
+	position:absolute;
+	bottom:40px;
+	right:65px;
+	
+}
+
+
+#conteneur-halles {
+	width:470px;
+	height:470px;
+/*	display:none;*/
+}
+
+#bloc-halles {
+	width:470px;
+	height:470px;
+	background: url(img/restaurant-saint-malo-descriptif-halles.png) transparent center center no-repeat;
+	text-align:center; /* centrage horizontal */
+	line-height:470px;
+}
+		
+#texte-halles {
+	width:290px;
+	display:none;
+	vertical-align:middle; 
+	display:inline-block; 
+	line-height:1.4; /* on rétablit le line-height */ 
+	text-align:center; /* ... et l'alignement du texte */ 
+}
+
+#position-afficher-halles {
+	position:absolute;
+	bottom:60px;
+	right:100px;
+	
+}
+
+#texte-accueil {margin-top: 111px;}
+#texte-mezzanine {margin-top: 135px;}
+#texte-restaurant {margin-top: 124px;}
+#texte-bar {margin-top: 95px;}
+#texte-halles {margin-top: 145px;}
+
+		
+/* --------------------------------------- */
+
+
+
+
+
+
+#carte-plat, #sitemap {
+/* Typical fixed height and fixed width example */
+width: 745px;
+height: 460px;
+overflow: auto;
+/* IE overflow fix, position must be relative or absolute*/
+position: absolute;
+padding-right: 15px;
+margin:20px;
+}
+
+#left-copyright, #right-copyright {
+	width:410px;
+	float:left;
+	height:auto;
+}
+
+#left-copyright {
+	width:315px;
+	margin-right:20px;
+}
+
+
+
+#carte-plat, #sitemap li {
+	line-height:1.8;
+	font-size:15px;
+}
+
+#carte-plat h1 {
+	color:#b10668;
+	margin:0px;
+	font-size:30px;
+}
+
+#sitemap h1{
+	margin:0px 0px 10px 0;
+	text-align:center;
+	color:#b10668;
+	font-size:30px;
+}
+
+#sitemap h2{
+	margin:10px 0px 0px 0;
+}
+
+
+
+#intra-muros-accueil a:hover {
+	text-decoration:none;
+	
+}
+
+#sansFlash{
+	position:absolute;
+	z-index:9;
+	width:100%;
+	height:100%;
+	background-color:#2e1b30;
+	top:0px;
+	left:0px;
+  	
+}
+
+#sansFlash-center{
+	position:absolute;
+left: 50%;  
+  	top: 50%;
+	width:800px;
+	height:420px;
+ 	margin-top: -210px; /* moitié de la hauteur */ 
+  	margin-left: -400px; /* moitié de la largeur */
+	text-align:center;
+}
+
+/*-----------------*/
+
+#tiptip_holder {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+
+#tiptip_holder.tip_top {
+	padding-bottom: 5px;
+}
+
+
+
+#tiptip_content {
+	font-size: 10px;
+	font-family:Verdana, Geneva, sans-serif;
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+	padding: 4px 8px;
+	border: 1px solid rgba(255,255,255,0.25);
+	background-color: rgb(25,25,25);
+	background-color: rgba(25,25,25,0.92);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 0 0 3px #555;
+	-webkit-box-shadow: 0 0 3px #555;
+	-moz-box-shadow: 0 0 3px #555;
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+
+#tiptip_holder.tip_top #tiptip_arrow {
+	border-top-color: #000;
+	border-top-color: rgba(255,255,255,0.35);
+}
+
+
+
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+	margin-top: -7px;
+	margin-left: -6px;
+	border-top-color: rgb(25,25,25);
+	border-top-color: rgba(25,25,25,0.92);
+}
+
+
+/*-------------------------*/
+
+.sponsorListHolder{
+	margin-bottom:10px;
+}
+
+.sponsor{
+	width:120px;
+	height:120px;
+	float:left;
+	margin:4px;
+	
+	/* Giving the sponsor div a relative positioning: */
+	position:relative;
+	cursor:pointer;
+}
+
+.sponsorFlip{
+	/*  The sponsor div will be positioned absolutely with respect
+		to its parent .sponsor div and fill it in entirely */
+
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	border:1px solid #3c273c;	
+/*	background:url("img/background.jpg") no-repeat center center #f9f9f9;
+*/	background-color:white;
+}
+
+.sponsorFlip:hover{
+	border:1px solid #2e1a30;
+	
+	/* CSS3 inset shadow: */
+	-moz-box-shadow:0 0 30px #2e1a30 inset;
+	-webkit-box-shadow:0 0 30px #2e1a30 inset;
+	box-shadow:0 0 30px #2e1a30 inset;
+}
+
+.sponsorFlip img{
+	/* Centering the logo image in the middle of the sponsorFlip div */
+	
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-40px 0 0 -40px;
+}
+
+.sponsorData{
+	/* Hiding the .sponsorData div */
+	display:none;
+}
+
+.sponsorDescription{
+	font-size:12px;
+	padding:10px;
+	width:100px;
+	height:65px;
+	line-height:1.3;
+	font-weight:bold;
+}
+
+.sponsorURL{
+	font-size:12px;
+	font-weight:bold;
+	padding-left:10px;
+	width:100px;
+	text-align:center;
+}
+
+.sponsorURL a{
+	color:#b10668;
+	
+}
+
+.clear{
+	/* This class clears the floats */
+	clear:both;
+}
+
+
+/* The styles below are only necessary for the styling of the demo page: */
+
+.main{
+	position:relative;
+	width:400px;
+	margin-left:-4px;
+}
+
+/* MAJ Carte et Menus
+/* Author : Icilaba Creation
+/* Date : 09/12/2012
+/***********************************/
+#carte-plat {
+	background: #000;
+	padding: 10px;
+	text-align: center;
+	font-weight: normal;
+}
+
+.separation {
+	margin-top: 40px;
+	color: rgb(177, 6, 104);
+
+}
+
+.menu-title {
+	display: block;
+	font-family: 'Felipa', cursive;
+	font-size: 24px;
+	
+}
+
+.mets-vins {
+	display: block;
+	font-family: 'Felipa', cursive;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(177, 6, 104);
+	margin-bottom: 17px;
+}
+
+#lacarte, #menu39, #menu30, #formuledejeuner, #midigastronome {
+	margin-top: 40px;
+	font-size: 14px;
+}
+
+.wrapper {
+	width: 600px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.menu-subtitle {
+	display: block;
+	color: rgb(177, 6, 104);
+	text-transform: uppercase;
+}
+.small-plate, .plate, .price {
+	display: inline-table;
+	vertical-align: bottom;
+}
+.plate {
+	width: 562px;
+}
+
+.small-plate {
+	width: 300px;
+}
+.price {
+	float: right;
+}
+
+#menu39 .menu-title, #menu30 .menu-title {
+	margin-bottom: 15px;
+}
+
+.one-plate {
+	display: block;
+	text-align: center;
+}
+
+#menu39 .one-plate {
+	margin-bottom: 24px;
+}
+
+.italic {
+	font-size: 13px;
+	font-style: italic;
+}
+
+#midigastronome {
+	margin-bottom: 40px;
+}
